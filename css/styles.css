@@ -125,9 +125,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .dd-toggle svg { width: 14px; height: 14px; transition: transform .25s var(--ease); }
 .has-dropdown:hover .dd-toggle svg, .has-dropdown.open .dd-toggle svg { transform: rotate(180deg); }
 .nav-dropdown {
-  position: absolute; top: calc(100% + 16px); left: 0; width: 500px; max-width: 92vw;
+  position: absolute; top: calc(100% + 16px); left: 0; width: 320px; max-width: 92vw;
   background: #fff; border-radius: 16px; box-shadow: var(--shadow); padding: var(--s6) var(--s5);
-  display: grid; grid-template-columns: 1fr 1fr; gap: var(--s5) var(--s6); z-index: 120;
+  display: grid; grid-template-columns: 1fr; gap: var(--s3); z-index: 120;
   opacity: 0; visibility: hidden; transform: translateY(8px); transition: opacity .2s var(--ease), transform .2s var(--ease), visibility .2s;
 }
 .nav-dropdown::before { content: ""; position: absolute; top: -16px; left: 0; right: 0; height: 16px; } /* hover bridge */
