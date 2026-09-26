@@ -27,9 +27,10 @@ cruise-injury-advocates/
 
 ## Before launch — required edits
 - **Attorney photos** (`[Photo: ...]` placeholders in the three bio cards).
-- **Compliance** (`[PLACEHOLDER]` in the footer): confirm the Florida Bar
-  attorney-advertising disclaimer and name the attorney responsible for the
-  site's content.
+- **Compliance** (footer disclaimer): the footer names Suro & Rodriguez, PLLC as
+  responsible for the site's content and Miami, Florida as the principal office,
+  which is what Florida Bar Rule 4-7.12(a) requires. Optional: have the firm
+  confirm whether they also want an individual attorney named as responsible.
 - **Intake form**: wire to your GHL form/webhook. See the comment block in
   `js/main.js` (§5) — either set the `<form action>` or fill `submitToBackend()`.
 - **Chat widget**: drop your GHL / live-chat embed at the `[INTEGRATION POINT]`
