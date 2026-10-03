@@ -36,3 +36,5 @@ assets/*
 
 # WebP versions of the served images
 !assets/*.webp
+
+.wrangler/
